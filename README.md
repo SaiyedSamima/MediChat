@@ -23,7 +23,7 @@ It combines a curated 637‑page medical textbook, vector search in Pinecone, an
 
 | Layer             | Tool / Library                               |
 | ----------------- | -------------------------------------------- |
-| Language Model    | **OpenAI GPT‑4o** (API)                      |
+| Language Model    | **gemini-1.5-flash-latest** (API)                      |
 | RAG Orchestration | **LangChain**                                |
 | Embeddings        | **SentenceTransformer** (`all‑MiniLM‑L6‑v2`) |
 | Vector Storage    | **Pinecone** (cosine similarity)             |
