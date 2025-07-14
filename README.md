@@ -3,6 +3,9 @@ AI Doctor Chatbot <!-- MediChat -->
 A Retrieval‑Augmented‑Generation (RAG)–based web application that delivers accurate, context‑aware medical answers in natural language.
 It combines a curated 637‑page medical textbook, vector search in Pinecone, and OpenAI’s GPT model behind a clean ChatGPT‑style interface.
 
+
+
+
 | Feature                                  | Why it matters                                                                       |
 | ---------------------------------------- | ------------------------------------------------------------------------------------ |
 | **Reliable medical knowledge base**      | Answers are grounded in peer‑reviewed text (no hallucinations from the open web).    |
@@ -12,6 +15,11 @@ It combines a curated 637‑page medical textbook, vector search in Pinecone, an
 | **Scalable micro‑service design**        | Swap models, add data sources, or deploy to cloud servers with minimal code change.  |
 
 
+
+
+
+
+
 1.Embedding Service – Converts user query and textbook chunks into high‑dimensional vectors.
 
 2.Pinecone – Stores vectors and returns the top‑k semantically similar chunks.
@@ -19,6 +27,11 @@ It combines a curated 637‑page medical textbook, vector search in Pinecone, an
 3.Gemini – Generates the final answer, citing the retrieved chunks.
 
 4.Flask – Orchestrates traffic and serves the chat interface.
+
+
+
+
+
 
 
 | Layer             | Tool / Library                               |
@@ -33,6 +46,11 @@ It combines a curated 637‑page medical textbook, vector search in Pinecone, an
 
 
 
+
+
+
+
+
 🔮 Future Work
 Voice input/output via WebRTC
 
@@ -42,6 +60,11 @@ Live updates from CDC / WHO APIs
 
 HIPAA‑compliant user profile integration
 
+
+
+
+
+
 🤝 Contributing
 Fork the repo & create a feature branch
 
@@ -49,9 +72,17 @@ Follow Black + isort formatting (pre‑commit run -a)
 
 Open a PR with a clear description; one of the maintainers will review.
 
+
+
+
+
 🛡️ License
 This project is licensed under the MIT License.
 See LICENSE for details.
+
+
+
+
 
 🙏 Acknowledgements
 OpenAI for LLM APIs
